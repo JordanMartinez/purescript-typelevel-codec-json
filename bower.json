@@ -1,0 +1,58 @@
+{
+  "name": "purescript-typelevel-codec-json",
+  "homepage": "https://github.com/JordanMartinez/purescript-typelevel-codec-json",
+  "authors": [
+    "Jordan Martinez <jordanalex.martinez@gmail.com>"
+  ],
+  "description": "Use typeclass-based JSON codecs as though they were value-based JSON codecs.",
+  "keywords": [
+    "codecs",
+    "purescript",
+    "json",
+    "typelevel"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JordanMartinez/purescript-typelevel-codec-json.git"
+  },
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "output",
+    "test",
+    "bower.json",
+    "package.json",
+    ".spago"
+  ],
+  "dependencies": {
+    "purescript-argonaut-codecs": "^8.1.0",
+    "purescript-argonaut-core": "^6.0.0",
+    "purescript-bifunctors": "^5.0.0",
+    "purescript-codec": "^4.0.1",
+    "purescript-codec-argonaut": "^8.0.0",
+    "purescript-effect": "^3.0.0",
+    "purescript-either": "^5.0.0",
+    "purescript-foreign": "^6.0.1",
+    "purescript-foreign-object": "^3.0.0",
+    "purescript-identity": "^5.0.0",
+    "purescript-lists": "^6.0.1",
+    "purescript-maybe": "^5.0.0",
+    "purescript-newtype": "^4.0.0",
+    "purescript-ordered-collections": "^2.0.1",
+    "purescript-prelude": "^5.0.1",
+    "purescript-profunctor-lenses": "^7.0.1",
+    "purescript-simple-json": "^8.0.0",
+    "purescript-strings": "^5.0.0",
+    "purescript-tuples": "^6.0.1",
+    "purescript-unsafe-coerce": "^5.0.0",
+    "purescript-variant": "^7.0.2"
+  },
+  "devDependencies": {
+    "purescript-aff": "^6.0.0",
+    "purescript-psci-support": "v5.0.0",
+    "purescript-spec": "v5.0.0",
+    "purescript-transformers": "^5.1.0"
+  }
+}
