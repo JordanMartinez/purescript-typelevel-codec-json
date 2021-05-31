@@ -24,7 +24,7 @@ import Test.Spec (describe, it)
 import Test.Spec.Assertions (shouldEqual)
 import Test.Spec.Reporter.Console (consoleReporter)
 import Test.Spec.Runner (runSpec)
-import Type.Codec.Argonaut (class IsJsonCodec, type (:::), TJsonCodec, Tarray, Tboolean, Teither, Tint, Tlist, Tmap, Tmaybe, TmaybeNull, Tnewtype, Tnumber, Tobject, Tstring, Ttuple, Tvariant, Using(..))
+import Type.Codec.Json (class IsJsonCodec, type (:::), TJsonCodec, Tarray, Tboolean, Teither, Tint, Tlist, Tmap, Tmaybe, TmaybeNull, Tnewtype, Tnumber, Tobject, Tstring, Ttuple, Tvariant, Using(..))
 import Type.Proxy (Proxy(..))
 
 main :: Effect Unit
